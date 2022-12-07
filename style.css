@@ -1,0 +1,392 @@
+@font-face {
+    font-family: "Varela Round";
+    src: url(VarelaRound-Regular.ttf);
+  }
+body {
+    background: white;
+    color: black;
+    font-family: "Varela Round", arial, sans-serif;
+    font-size: 18px;
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+    font-family: "Varela Round", arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-size: 26px;
+    color: #686668;
+  }
+  hr {
+    border-radius: 100%;
+    border: 2px solid #9d999d;
+  }
+  img {
+    width: 100%;
+  }
+  li {
+    list-style-type: none;
+  }
+  
+  
+  .main {
+    background-color: white;
+    margin-left: 290px;
+    margin-right: 290px;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    height: 100%;
+    padding: 8px;
+    border: 2px solid rgb(221, 221, 221);
+    /* border-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOa3ae2Qvnc8WO3IYEEtC9prSnGnFaCfAA-Q&usqp=CAU') 20; */
+  }
+  header {
+    text-align: center;
+    padding: 70px;
+  }
+  header a {
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+  }
+  .contact {
+    letter-spacing: 1px;
+    font-family: "Varela Round", arial, sans-serif;
+    line-height: 30px;
+    color: rgb(34, 34, 34);
+  }
+  .contact a {
+    text-decoration: none;
+    color: #606060;
+  }
+
+  .contact a:hover {
+      color: #000000;
+  }
+
+  .dev_exp {
+    letter-spacing: 1px;
+    font-family: "Varela Round", arial, sans-serif;
+    line-height: 30px;
+  }
+  .dev_exp a {
+    text-decoration: none;
+    color: #606060;
+  }
+
+  .dev_main {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 4%;
+    justify-content: space-between;
+  }
+
+  .content {
+    margin-left: 18%;
+    width: 65%;
+  }
+  
+   code {
+    background-color: rgb(247, 247, 247);
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+    color: rgb(35, 163, 41);
+    font-size: 16px;
+  
+  }
+  .about {
+    width: 65%;
+    margin-left: 16%;
+    color: #696940;
+    font-size: 21px;
+  }
+  #name {
+    padding: 0px 0px 25px 0px;
+    letter-spacing: 6px;
+    font-family: "Varela Round", arial, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-size: 26px;
+    color: rgb(34, 34, 34);
+  }
+  
+  #foto {
+    margin-left: 19%;
+    margin-bottom: 1%;
+    width: 770px;
+    height: 500px;
+  }
+  #logo {
+    width: 100px;
+    height: auto;
+    margin-left: 26%;
+    padding-right: 15%;
+  }
+  
+  .menu-main {
+    list-style: none;
+    margin: 20px 0 0px;
+    padding: 0px 0 0px;
+    text-align: center;
+    background: white;
+  }
+  .menu-main li {
+    display: inline-block;
+  }
+  .menu-main li:after {
+    color: #606060;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .menu-main li:last-child:after {
+    content: none;
+  }
+  .menu-main a {
+    text-decoration: none;
+    font-family: "Varela Round", arial, sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 20px 0 0px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color 0.2s;
+  }
+  .menu-main a,
+  .menu-main a:visited {
+    color: #9d999d;
+  }
+  .menu-main a.current,
+  .menu-main a:hover {
+    color: #000000;
+  }
+  .menu-main a:before,
+  .menu-main a:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    top: auto;
+    right: 50%;
+    bottom: 15px;
+    left: 50%;
+    background: #9d999d;
+    transition: 0.8s;
+  }
+  .menu-main a:hover:before,
+  .menu-main .current:before {
+    left: 0;
+  }
+  .menu-main a:hover:after,
+  .menu-main .current:after {
+    right: 0;
+  }
+  @media (max-width: 550px) {
+    .menu-main {
+      padding-top: 0;
+    }
+    .menu-main li {
+      display: block;
+    }
+    .menu-main li:after {
+      content: none;
+    }
+    .menu-main a {
+      padding: 25px 0 20px;
+      margin: 0 30px;
+    }
+  }
+  .year {
+    color: #606060;
+  }
+  .foot {
+    width: 54%;
+    margin-left: 27%;
+    }
+  footer a{
+    text-decoration: none;
+    color: #606060;
+  }
+
+ footer a:hover {
+    cursor: pointer;
+    color: black;   
+}
+  @media(max-width: 1700px){
+    #foto{
+      width: 60%;
+      height: 100%;
+    }
+  }
+  @media (max-width: 1253px) {
+    .dev_main {
+        margin-left:19% ;
+    }
+  }
+  @media (max-width: 1024px){
+    h1,
+    h2 {
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 10px;
+    }
+    .main {
+      width: 70%;
+      margin: 0;
+      margin-left: 14%;
+      font-size: 20px;
+    }
+    .dev_main {
+        margin-left: 0%;
+    }
+    #foto{
+      width: 60%;
+      height: 100%;
+    }
+    #logo {
+      width: 100px;
+      height: auto;
+      margin-left: 26%;
+      padding-right: 15%;
+    }
+    
+    .foot {
+      width: 70%;
+      margin-left: 15%;
+      }
+  
+  }
+  
+  @media (max-width: 768px) {
+    h1,
+    h2 {
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 10px;
+    }
+    .main {
+      width: 70%;
+      margin: 0;
+      margin-left: 14%;
+      font-size: 20px;
+    }
+    .dev_main {
+        margin-left: 0% ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #foto{
+      width: 60%;
+      height: 100%;
+    }
+    #logo {
+      width: 100px;
+      height: auto;
+      margin-left: 20%;
+      padding-right: 10%;
+    }
+    
+    .foot {
+      width: 70%;
+      margin-left: 15%;
+      font-size: 15px;
+      }
+  
+  
+  }
+  
+  
+  @media(max-width: 425px){
+    h1,
+    h2 {
+      font-size: 23px;
+    }
+    h3 {
+      font-size: 15px;
+    }
+    .main {
+      width: 95%;
+      margin: 0;
+      font-size: 15px;
+    }
+    .dev_main {
+        margin-left: 2%;
+    }
+    #foto{
+      width: 70%;
+      height: 100%;
+    }
+    code{
+      font-size: 10px;
+    }
+  
+    #logo {
+      width: 100px;
+      height: auto;
+      margin-left: 10%;
+      padding-right: 10%;
+    }
+    
+    .foot {
+      width: 100%;
+      margin-left: 5%;
+      font-size: 10px;
+      }
+  }
+  
+  @media (max-width: 375px){
+    h1,
+    h2 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 10px;
+    }
+    .main {
+      width: 95%;
+      margin: 0;
+      font-size: 10px;
+    }
+    #foto{
+      width: 70%;
+      height: 100%;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    h1,
+    h2 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 10px;
+    }
+    .main {
+      width: 100%;
+      margin: 0;
+      font-size: 10px;
+    }
+  
+    #foto{
+      width: 70%;
+      height: 100%;
+    }
+    #logo {
+      width: 100px;
+      height: auto;
+      margin-left: 10%;
+      padding-right: 5%;
+    }
+    
+    .foot {
+      width: 100%;
+      margin-left: 4%;
+      font-size: 8px;
+      }
+  }
