@@ -10,7 +10,6 @@ ___
 * ### **Email:** [gromov.oleg.by@gmail.com](# "email")
 * ### **GitHub:** [OlezhaProduction ](https://github.com/OlezhaProduction "github")
 * ### **Discord:** [GromovOleg](# "discord")
-* ### **Telegram:** [@olegomelby](# "telegram")
 </br>
 
 ---
